@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.learn2crack.karankapoor.EntryActivity">
+
+    <RelativeLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:id="@+id/img_contacts"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/contacts_icon"
+            android:clickable="true"
+            android:focusable="true"/>
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/img_gallery"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/img_contacts"
+            android:src="@drawable/gallery_icon"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

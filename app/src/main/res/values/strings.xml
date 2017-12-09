@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Kotlin</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text_info">Click to Save Contacts</string>
+    <string name="button_allow">Permission Granted</string>
+    <string name="button_deny">Permission Denied</string>
+    <string name="permission_contacts_rationale">Please give permissions to proceed</string>
+</resources>
