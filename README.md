@@ -2,6 +2,8 @@
 
 This is a sample project which I have done to learn Android using Kotlin.
 
+Link to APK - https://drive.google.com/file/d/1UYw53bBBacF2_ypXLTyULZ5v_CG3gVLX/view?usp=sharing
+
 There are two main parts:
 
 ## ImageView in RecyclerView
